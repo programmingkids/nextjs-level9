@@ -1,0 +1,37 @@
+{
+  "name": "chapter06",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@prisma/client": "6.0.1",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.2",
+    "react-icons": "^5.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "prisma": "^6.0.1",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5",
+    "zod-prisma-types": "^3.2.1"
+  },
+  "prisma": {
+    "seed": "tsx src/db/seed.ts"
+  }
+}

@@ -26,9 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={notoSansJP400.className} suppressHydrationWarning={true}>
-        <Header />
         <main className="min-h-[calc(100vh-7rem)]">{children}</main>
-        <Footer />
       </body>
     </html>
   );

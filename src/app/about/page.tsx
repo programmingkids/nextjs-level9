@@ -13,7 +13,7 @@ export default function Page() {
         <MdMenuBook className="inline align-bottom mr-2 text-2xl" />
         About
       </h1>
-      <h2 className="p-4 text-xl">書籍管理アプリ</h2>
+      <h2 className="p-4 text-xl">書籍アプリ</h2>
       <ul className="m-4">
         <li>書籍を管理します</li>
         <li>著者一覧</li>
